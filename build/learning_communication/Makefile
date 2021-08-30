@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+learning_communication/CMakeFiles/client.dir/rule:
+	cd /home/julien/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning_communication/CMakeFiles/client.dir/rule
+.PHONY : learning_communication/CMakeFiles/client.dir/rule
+
+# Convenience name for target.
+client: learning_communication/CMakeFiles/client.dir/rule
+
+.PHONY : client
+
+# fast build rule for target.
+client/fast:
+	cd /home/julien/catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/client.dir/build.make learning_communication/CMakeFiles/client.dir/build
+.PHONY : client/fast
+
+# Convenience name for target.
 learning_communication/CMakeFiles/listener.dir/rule:
 	cd /home/julien/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning_communication/CMakeFiles/listener.dir/rule
 .PHONY : learning_communication/CMakeFiles/listener.dir/rule
@@ -241,6 +256,21 @@ rosgraph_msgs_generate_messages_eus: learning_communication/CMakeFiles/rosgraph_
 rosgraph_msgs_generate_messages_eus/fast:
 	cd /home/julien/catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make learning_communication/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+learning_communication/CMakeFiles/server.dir/rule:
+	cd /home/julien/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning_communication/CMakeFiles/server.dir/rule
+.PHONY : learning_communication/CMakeFiles/server.dir/rule
+
+# Convenience name for target.
+server: learning_communication/CMakeFiles/server.dir/rule
+
+.PHONY : server
+
+# fast build rule for target.
+server/fast:
+	cd /home/julien/catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/server.dir/build.make learning_communication/CMakeFiles/server.dir/build
+.PHONY : server/fast
 
 # Convenience name for target.
 learning_communication/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
@@ -617,6 +647,33 @@ learning_communication_genpy/fast:
 	cd /home/julien/catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/learning_communication_genpy.dir/build.make learning_communication/CMakeFiles/learning_communication_genpy.dir/build
 .PHONY : learning_communication_genpy/fast
 
+src/client.o: src/client.cpp.o
+
+.PHONY : src/client.o
+
+# target to build an object file
+src/client.cpp.o:
+	cd /home/julien/catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/client.dir/build.make learning_communication/CMakeFiles/client.dir/src/client.cpp.o
+.PHONY : src/client.cpp.o
+
+src/client.i: src/client.cpp.i
+
+.PHONY : src/client.i
+
+# target to preprocess a source file
+src/client.cpp.i:
+	cd /home/julien/catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/client.dir/build.make learning_communication/CMakeFiles/client.dir/src/client.cpp.i
+.PHONY : src/client.cpp.i
+
+src/client.s: src/client.cpp.s
+
+.PHONY : src/client.s
+
+# target to generate assembly for a file
+src/client.cpp.s:
+	cd /home/julien/catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/client.dir/build.make learning_communication/CMakeFiles/client.dir/src/client.cpp.s
+.PHONY : src/client.cpp.s
+
 src/listener.o: src/listener.cpp.o
 
 .PHONY : src/listener.o
@@ -643,6 +700,33 @@ src/listener.s: src/listener.cpp.s
 src/listener.cpp.s:
 	cd /home/julien/catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/listener.dir/build.make learning_communication/CMakeFiles/listener.dir/src/listener.cpp.s
 .PHONY : src/listener.cpp.s
+
+src/server.o: src/server.cpp.o
+
+.PHONY : src/server.o
+
+# target to build an object file
+src/server.cpp.o:
+	cd /home/julien/catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/server.dir/build.make learning_communication/CMakeFiles/server.dir/src/server.cpp.o
+.PHONY : src/server.cpp.o
+
+src/server.i: src/server.cpp.i
+
+.PHONY : src/server.i
+
+# target to preprocess a source file
+src/server.cpp.i:
+	cd /home/julien/catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/server.dir/build.make learning_communication/CMakeFiles/server.dir/src/server.cpp.i
+.PHONY : src/server.cpp.i
+
+src/server.s: src/server.cpp.s
+
+.PHONY : src/server.s
+
+# target to generate assembly for a file
+src/server.cpp.s:
+	cd /home/julien/catkin_ws/build && $(MAKE) -f learning_communication/CMakeFiles/server.dir/build.make learning_communication/CMakeFiles/server.dir/src/server.cpp.s
+.PHONY : src/server.cpp.s
 
 src/talker.o: src/talker.cpp.o
 
@@ -680,12 +764,14 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... client"
 	@echo "... listener"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... install/local"
 	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... server"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... test"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
@@ -714,9 +800,15 @@ help:
 	@echo "... learning_communication_gennodejs"
 	@echo "... install/strip"
 	@echo "... learning_communication_genpy"
+	@echo "... src/client.o"
+	@echo "... src/client.i"
+	@echo "... src/client.s"
 	@echo "... src/listener.o"
 	@echo "... src/listener.i"
 	@echo "... src/listener.s"
+	@echo "... src/server.o"
+	@echo "... src/server.i"
+	@echo "... src/server.s"
 	@echo "... src/talker.o"
 	@echo "... src/talker.i"
 	@echo "... src/talker.s"
