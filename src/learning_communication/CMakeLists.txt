@@ -75,6 +75,9 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 add_message_files(FILES Person.msg)
+
+add_service_files(FILES AddTwoInts.srv)
+
 generate_messages(DEPENDENCIES std_msgs)
 
 ################################################
@@ -147,7 +150,7 @@ target_link_libraries(listener ${catkin_LIBRARIES})
 # add_dependencies(talker ${PROJECT_NAME}_generate_messages_cpp)
 
 ## Rename C++ executable without prefix
-## The above recommended prefix causes long target names, the following renames the
+## The above recommende d prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
 ## e.g. "rosrun someones_pkg node" instead of "rosrun someones_pkg someones_pkg_node"
 # set_target_properties(${PROJECT_NAME}_node PROPERTIES OUTPUT_NAME node PREFIX "")

@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/julien/catkin_ws/build
 include learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs.dir/progress.make
 
 learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/julien/catkin_ws/devel/share/gennodejs/ros/learning_communication/msg/Person.js
+learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs: /home/julien/catkin_ws/devel/share/gennodejs/ros/learning_communication/srv/AddTwoInts.js
 
 
 /home/julien/catkin_ws/devel/share/gennodejs/ros/learning_communication/msg/Person.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
@@ -61,8 +62,14 @@ learning_communication/CMakeFiles/learning_communication_generate_messages_nodej
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julien/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from learning_communication/Person.msg"
 	cd /home/julien/catkin_ws/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/julien/catkin_ws/src/learning_communication/msg/Person.msg -Ilearning_communication:/home/julien/catkin_ws/src/learning_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p learning_communication -o /home/julien/catkin_ws/devel/share/gennodejs/ros/learning_communication/msg
 
+/home/julien/catkin_ws/devel/share/gennodejs/ros/learning_communication/srv/AddTwoInts.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/julien/catkin_ws/devel/share/gennodejs/ros/learning_communication/srv/AddTwoInts.js: /home/julien/catkin_ws/src/learning_communication/srv/AddTwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julien/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from learning_communication/AddTwoInts.srv"
+	cd /home/julien/catkin_ws/build/learning_communication && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/julien/catkin_ws/src/learning_communication/srv/AddTwoInts.srv -Ilearning_communication:/home/julien/catkin_ws/src/learning_communication/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p learning_communication -o /home/julien/catkin_ws/devel/share/gennodejs/ros/learning_communication/srv
+
 learning_communication_generate_messages_nodejs: learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs
 learning_communication_generate_messages_nodejs: /home/julien/catkin_ws/devel/share/gennodejs/ros/learning_communication/msg/Person.js
+learning_communication_generate_messages_nodejs: /home/julien/catkin_ws/devel/share/gennodejs/ros/learning_communication/srv/AddTwoInts.js
 learning_communication_generate_messages_nodejs: learning_communication/CMakeFiles/learning_communication_generate_messages_nodejs.dir/build.make
 
 .PHONY : learning_communication_generate_messages_nodejs

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "/home/julien/catkin_ws/devel/share/common-lisp/ros/learning_communication/msg/Person.lisp"
+  "/home/julien/catkin_ws/devel/share/common-lisp/ros/learning_communication/srv/AddTwoInts.lisp"
   "CMakeFiles/learning_communication_generate_messages_lisp"
 )
 
