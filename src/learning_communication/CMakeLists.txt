@@ -12,6 +12,8 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   message_generation
+  actionlib_msgs 
+  actionlib
 )
 
 ## System dependencies are found with CMake's conventions
@@ -78,7 +80,9 @@ add_message_files(FILES Person.msg)
 
 add_service_files(FILES AddTwoInts.srv)
 
-generate_messages(DEPENDENCIES std_msgs)
+add_action_files(DIRECTORY action FILES DoDishes.action)
+
+generate_messages(DEPENDENCIES std_msgs actionlib_msgs)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -156,6 +160,14 @@ add_dependencies(server ${PROJECT_NAME}_gencpp)
 add_executable(client src/client.cpp)
 target_link_libraries(client ${catkin_LIBRARIES})
 add_dependencies(client ${PROJECT_NAME}_gencpp)
+
+add_executable(DoDishes_client src/DoDishes_client.cpp)
+target_link_libraries(DoDishes_client ${catkin_LIBRARIES})
+add_dependencies(DoDishes_client ${${PROJECT_NAME}_EXPORTED_TARGETS})
+
+add_executable(DoDishes_server src/DoDishes_server.cpp)
+target_link_libraries(DoDishes_server ${catkin_LIBRARIES})
+add_dependencies(DoDishes_server ${${PROJECT_NAME}_EXPORTED_TARGETS})
 
 ## Rename C++ executable without prefix
 ## The above recommende d prefix causes long target names, the following renames the

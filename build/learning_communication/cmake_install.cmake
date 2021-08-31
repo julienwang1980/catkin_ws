@@ -46,6 +46,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learning_communication/action" TYPE FILE FILES "/home/julien/catkin_ws/src/learning_communication/action/DoDishes.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learning_communication/msg" TYPE FILE FILES
+    "/home/julien/catkin_ws/devel/share/learning_communication/msg/DoDishesAction.msg"
+    "/home/julien/catkin_ws/devel/share/learning_communication/msg/DoDishesActionGoal.msg"
+    "/home/julien/catkin_ws/devel/share/learning_communication/msg/DoDishesActionResult.msg"
+    "/home/julien/catkin_ws/devel/share/learning_communication/msg/DoDishesActionFeedback.msg"
+    "/home/julien/catkin_ws/devel/share/learning_communication/msg/DoDishesGoal.msg"
+    "/home/julien/catkin_ws/devel/share/learning_communication/msg/DoDishesResult.msg"
+    "/home/julien/catkin_ws/devel/share/learning_communication/msg/DoDishesFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learning_communication/cmake" TYPE FILE FILES "/home/julien/catkin_ws/build/learning_communication/catkin_generated/installspace/learning_communication-msg-paths.cmake")
 endif()
 

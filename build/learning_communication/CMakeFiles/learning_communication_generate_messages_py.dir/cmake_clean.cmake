@@ -1,4 +1,11 @@
 file(REMOVE_RECURSE
+  "/home/julien/catkin_ws/devel/lib/python3/dist-packages/learning_communication/msg/_DoDishesAction.py"
+  "/home/julien/catkin_ws/devel/lib/python3/dist-packages/learning_communication/msg/_DoDishesActionFeedback.py"
+  "/home/julien/catkin_ws/devel/lib/python3/dist-packages/learning_communication/msg/_DoDishesActionGoal.py"
+  "/home/julien/catkin_ws/devel/lib/python3/dist-packages/learning_communication/msg/_DoDishesActionResult.py"
+  "/home/julien/catkin_ws/devel/lib/python3/dist-packages/learning_communication/msg/_DoDishesFeedback.py"
+  "/home/julien/catkin_ws/devel/lib/python3/dist-packages/learning_communication/msg/_DoDishesGoal.py"
+  "/home/julien/catkin_ws/devel/lib/python3/dist-packages/learning_communication/msg/_DoDishesResult.py"
   "/home/julien/catkin_ws/devel/lib/python3/dist-packages/learning_communication/msg/_Person.py"
   "/home/julien/catkin_ws/devel/lib/python3/dist-packages/learning_communication/msg/__init__.py"
   "/home/julien/catkin_ws/devel/lib/python3/dist-packages/learning_communication/srv/_AddTwoInts.py"
