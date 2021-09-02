@@ -169,6 +169,7 @@ add_executable(DoDishes_server src/DoDishes_server.cpp)
 target_link_libraries(DoDishes_server ${catkin_LIBRARIES})
 add_dependencies(DoDishes_server ${${PROJECT_NAME}_EXPORTED_TARGETS})
 
+
 ## Rename C++ executable without prefix
 ## The above recommende d prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
