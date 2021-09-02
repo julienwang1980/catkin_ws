@@ -948,6 +948,7 @@ learning_communication_generate_messages/fast:
 .PHONY : learning_communication_generate_messages/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named turtle_tf_listener
 
 # Build rule for target.
@@ -1362,6 +1363,279 @@ std_srvs_generate_messages_lisp: cmake_check_build_system
 std_srvs_generate_messages_lisp/fast:
 	$(MAKE) -f learning_tf/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make learning_tf/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
 .PHONY : std_srvs_generate_messages_lisp/fast
+=======
+# Target rules for targets named lesson2_homework_genpy
+
+# Build rule for target.
+lesson2_homework_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2_homework_genpy
+.PHONY : lesson2_homework_genpy
+
+# fast build rule for target.
+lesson2_homework_genpy/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/lesson2_homework_genpy.dir/build.make lesson2_homework/CMakeFiles/lesson2_homework_genpy.dir/build
+.PHONY : lesson2_homework_genpy/fast
+
+#=============================================================================
+# Target rules for targets named lesson2_homework_genlisp
+
+# Build rule for target.
+lesson2_homework_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2_homework_genlisp
+.PHONY : lesson2_homework_genlisp
+
+# fast build rule for target.
+lesson2_homework_genlisp/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/lesson2_homework_genlisp.dir/build.make lesson2_homework/CMakeFiles/lesson2_homework_genlisp.dir/build
+.PHONY : lesson2_homework_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named lesson2_homework_generate_messages_nodejs
+
+# Build rule for target.
+lesson2_homework_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2_homework_generate_messages_nodejs
+.PHONY : lesson2_homework_generate_messages_nodejs
+
+# fast build rule for target.
+lesson2_homework_generate_messages_nodejs/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/lesson2_homework_generate_messages_nodejs.dir/build.make lesson2_homework/CMakeFiles/lesson2_homework_generate_messages_nodejs.dir/build
+.PHONY : lesson2_homework_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named lesson2_homework_generate_messages
+
+# Build rule for target.
+lesson2_homework_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2_homework_generate_messages
+.PHONY : lesson2_homework_generate_messages
+
+# fast build rule for target.
+lesson2_homework_generate_messages/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/lesson2_homework_generate_messages.dir/build.make lesson2_homework/CMakeFiles/lesson2_homework_generate_messages.dir/build
+.PHONY : lesson2_homework_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named _lesson2_homework_generate_messages_check_deps_TurtleMoveFeedback
+
+# Build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveFeedback: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _lesson2_homework_generate_messages_check_deps_TurtleMoveFeedback
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveFeedback
+
+# fast build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveFeedback/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveFeedback.dir/build.make lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveFeedback.dir/build
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveFeedback/fast
+
+#=============================================================================
+# Target rules for targets named lesson2_homework_gencpp
+
+# Build rule for target.
+lesson2_homework_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2_homework_gencpp
+.PHONY : lesson2_homework_gencpp
+
+# fast build rule for target.
+lesson2_homework_gencpp/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/lesson2_homework_gencpp.dir/build.make lesson2_homework/CMakeFiles/lesson2_homework_gencpp.dir/build
+.PHONY : lesson2_homework_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named _lesson2_homework_generate_messages_check_deps_TurtleMoveAction
+
+# Build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveAction: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _lesson2_homework_generate_messages_check_deps_TurtleMoveAction
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveAction
+
+# fast build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveAction/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveAction.dir/build.make lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveAction.dir/build
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveAction/fast
+
+#=============================================================================
+# Target rules for targets named turtle_control
+
+# Build rule for target.
+turtle_control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 turtle_control
+.PHONY : turtle_control
+
+# fast build rule for target.
+turtle_control/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/turtle_control.dir/build.make lesson2_homework/CMakeFiles/turtle_control.dir/build
+.PHONY : turtle_control/fast
+
+#=============================================================================
+# Target rules for targets named lesson2_homework_generate_messages_py
+
+# Build rule for target.
+lesson2_homework_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2_homework_generate_messages_py
+.PHONY : lesson2_homework_generate_messages_py
+
+# fast build rule for target.
+lesson2_homework_generate_messages_py/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/lesson2_homework_generate_messages_py.dir/build.make lesson2_homework/CMakeFiles/lesson2_homework_generate_messages_py.dir/build
+.PHONY : lesson2_homework_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named lesson2_homework_geneus
+
+# Build rule for target.
+lesson2_homework_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2_homework_geneus
+.PHONY : lesson2_homework_geneus
+
+# fast build rule for target.
+lesson2_homework_geneus/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/lesson2_homework_geneus.dir/build.make lesson2_homework/CMakeFiles/lesson2_homework_geneus.dir/build
+.PHONY : lesson2_homework_geneus/fast
+
+#=============================================================================
+# Target rules for targets named lesson2_homework_gennodejs
+
+# Build rule for target.
+lesson2_homework_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2_homework_gennodejs
+.PHONY : lesson2_homework_gennodejs
+
+# fast build rule for target.
+lesson2_homework_gennodejs/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/lesson2_homework_gennodejs.dir/build.make lesson2_homework/CMakeFiles/lesson2_homework_gennodejs.dir/build
+.PHONY : lesson2_homework_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named _lesson2_homework_generate_messages_check_deps_TurtleMoveActionGoal
+
+# Build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveActionGoal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _lesson2_homework_generate_messages_check_deps_TurtleMoveActionGoal
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveActionGoal
+
+# fast build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveActionGoal/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveActionGoal.dir/build.make lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveActionGoal.dir/build
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveActionGoal/fast
+
+#=============================================================================
+# Target rules for targets named _lesson2_homework_generate_messages_check_deps_TurtleMoveResult
+
+# Build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveResult: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _lesson2_homework_generate_messages_check_deps_TurtleMoveResult
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveResult
+
+# fast build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveResult/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveResult.dir/build.make lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveResult.dir/build
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveResult/fast
+
+#=============================================================================
+# Target rules for targets named _lesson2_homework_generate_messages_check_deps_TurtleMoveActionResult
+
+# Build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveActionResult: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _lesson2_homework_generate_messages_check_deps_TurtleMoveActionResult
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveActionResult
+
+# fast build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveActionResult/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveActionResult.dir/build.make lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveActionResult.dir/build
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveActionResult/fast
+
+#=============================================================================
+# Target rules for targets named _lesson2_homework_generate_messages_check_deps_TurtleMoveGoal
+
+# Build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveGoal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _lesson2_homework_generate_messages_check_deps_TurtleMoveGoal
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveGoal
+
+# fast build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveGoal/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveGoal.dir/build.make lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveGoal.dir/build
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveGoal/fast
+
+#=============================================================================
+# Target rules for targets named TurtleMove_client
+
+# Build rule for target.
+TurtleMove_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TurtleMove_client
+.PHONY : TurtleMove_client
+
+# fast build rule for target.
+TurtleMove_client/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/TurtleMove_client.dir/build.make lesson2_homework/CMakeFiles/TurtleMove_client.dir/build
+.PHONY : TurtleMove_client/fast
+
+#=============================================================================
+# Target rules for targets named lesson2_homework_generate_messages_eus
+
+# Build rule for target.
+lesson2_homework_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2_homework_generate_messages_eus
+.PHONY : lesson2_homework_generate_messages_eus
+
+# fast build rule for target.
+lesson2_homework_generate_messages_eus/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/lesson2_homework_generate_messages_eus.dir/build.make lesson2_homework/CMakeFiles/lesson2_homework_generate_messages_eus.dir/build
+.PHONY : lesson2_homework_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named TurtleMove_server
+
+# Build rule for target.
+TurtleMove_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TurtleMove_server
+.PHONY : TurtleMove_server
+
+# fast build rule for target.
+TurtleMove_server/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/TurtleMove_server.dir/build.make lesson2_homework/CMakeFiles/TurtleMove_server.dir/build
+.PHONY : TurtleMove_server/fast
+
+#=============================================================================
+# Target rules for targets named lesson2_homework_generate_messages_lisp
+
+# Build rule for target.
+lesson2_homework_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2_homework_generate_messages_lisp
+.PHONY : lesson2_homework_generate_messages_lisp
+
+# fast build rule for target.
+lesson2_homework_generate_messages_lisp/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/lesson2_homework_generate_messages_lisp.dir/build.make lesson2_homework/CMakeFiles/lesson2_homework_generate_messages_lisp.dir/build
+.PHONY : lesson2_homework_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named _lesson2_homework_generate_messages_check_deps_TurtleMoveActionFeedback
+
+# Build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveActionFeedback: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _lesson2_homework_generate_messages_check_deps_TurtleMoveActionFeedback
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveActionFeedback
+
+# fast build rule for target.
+_lesson2_homework_generate_messages_check_deps_TurtleMoveActionFeedback/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveActionFeedback.dir/build.make lesson2_homework/CMakeFiles/_lesson2_homework_generate_messages_check_deps_TurtleMoveActionFeedback.dir/build
+.PHONY : _lesson2_homework_generate_messages_check_deps_TurtleMoveActionFeedback/fast
+
+#=============================================================================
+# Target rules for targets named lesson2_homework_generate_messages_cpp
+
+# Build rule for target.
+lesson2_homework_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2_homework_generate_messages_cpp
+.PHONY : lesson2_homework_generate_messages_cpp
+
+# fast build rule for target.
+lesson2_homework_generate_messages_cpp/fast:
+	$(MAKE) -f lesson2_homework/CMakeFiles/lesson2_homework_generate_messages_cpp.dir/build.make lesson2_homework/CMakeFiles/lesson2_homework_generate_messages_cpp.dir/build
+.PHONY : lesson2_homework_generate_messages_cpp/fast
+>>>>>>> 19dcf7c795d9a7e9a7ea4dbac6f0cfedbb23e94c
 
 # Help Target
 help:
@@ -1436,6 +1710,7 @@ help:
 	@echo "... _learning_communication_generate_messages_check_deps_DoDishesActionResult"
 	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... learning_communication_generate_messages"
+<<<<<<< HEAD
 	@echo "... turtle_tf_listener"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_eus"
@@ -1468,6 +1743,29 @@ help:
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_eus"
 	@echo "... std_srvs_generate_messages_lisp"
+=======
+	@echo "... lesson2_homework_genpy"
+	@echo "... lesson2_homework_genlisp"
+	@echo "... lesson2_homework_generate_messages_nodejs"
+	@echo "... lesson2_homework_generate_messages"
+	@echo "... _lesson2_homework_generate_messages_check_deps_TurtleMoveFeedback"
+	@echo "... lesson2_homework_gencpp"
+	@echo "... _lesson2_homework_generate_messages_check_deps_TurtleMoveAction"
+	@echo "... turtle_control"
+	@echo "... lesson2_homework_generate_messages_py"
+	@echo "... lesson2_homework_geneus"
+	@echo "... lesson2_homework_gennodejs"
+	@echo "... _lesson2_homework_generate_messages_check_deps_TurtleMoveActionGoal"
+	@echo "... _lesson2_homework_generate_messages_check_deps_TurtleMoveResult"
+	@echo "... _lesson2_homework_generate_messages_check_deps_TurtleMoveActionResult"
+	@echo "... _lesson2_homework_generate_messages_check_deps_TurtleMoveGoal"
+	@echo "... TurtleMove_client"
+	@echo "... lesson2_homework_generate_messages_eus"
+	@echo "... TurtleMove_server"
+	@echo "... lesson2_homework_generate_messages_lisp"
+	@echo "... _lesson2_homework_generate_messages_check_deps_TurtleMoveActionFeedback"
+	@echo "... lesson2_homework_generate_messages_cpp"
+>>>>>>> 19dcf7c795d9a7e9a7ea4dbac6f0cfedbb23e94c
 .PHONY : help
 
 
