@@ -33,7 +33,7 @@ int main(int argc, char** argv)
     ros::Subscriber sub=node.subscribe("turtle2/pose", 10, &poseCallback);
 
     // 定义turtle的速度控制发布器
-    =node.advertise<geometry_msgs::Twist>("turtle2/cmd_vel", 10);
+    turtle_vel=node.advertise<geometry_msgs::Twist>("turtle2/cmd_vel", 10);
 
     ros::Rate rate(10.0);
 
