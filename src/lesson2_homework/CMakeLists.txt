@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   actionlib_msgs
   actionlib
+  tf
 )
 
 ## System dependencies are found with CMake's conventions
@@ -167,6 +168,12 @@ add_dependencies(TurtleMove_client ${PROJECT_NAME}_gencpp)
 add_executable(TurtleMove_server src/TurtleMove_server.cpp)
 target_link_libraries(TurtleMove_server ${catkin_LIBRARIES})
 add_dependencies(TurtleMove_server ${PROJECT_NAME}_gencpp)
+
+add_executable(broadCaster src/broadCaster.cpp)
+target_link_libraries(broadCaster ${catkin_LIBRARIES})
+
+add_executable(robListener src/robListener.cpp)
+target_link_libraries(robListener ${catkin_LIBRARIES})
 
 ## Specify libraries to link a library or executable target against
 # target_link_libraries(${PROJECT_NAME}_node

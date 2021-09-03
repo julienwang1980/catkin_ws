@@ -465,17 +465,16 @@ learning_communication_BINARY_DIR:STATIC=/home/julien/catkin_ws/build/learning_c
 learning_communication_SOURCE_DIR:STATIC=/home/julien/catkin_ws/src/learning_communication
 
 //Value Computed by CMake
-<<<<<<< HEAD
 learning_tf_BINARY_DIR:STATIC=/home/julien/catkin_ws/build/learning_tf
 
 //Value Computed by CMake
 learning_tf_SOURCE_DIR:STATIC=/home/julien/catkin_ws/src/learning_tf
-=======
+
+//Value Computed by CMake
 lesson2_homework_BINARY_DIR:STATIC=/home/julien/catkin_ws/build/lesson2_homework
 
 //Value Computed by CMake
 lesson2_homework_SOURCE_DIR:STATIC=/home/julien/catkin_ws/src/lesson2_homework
->>>>>>> 19dcf7c795d9a7e9a7ea4dbac6f0cfedbb23e94c
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/libtf2.so
@@ -691,7 +690,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,6 +1,2 @@
-<<<<<<< HEAD
-learning_communication:learning_tf
-=======
-learning_communication:lesson2_homework
->>>>>>> 19dcf7c795d9a7e9a7ea4dbac6f0cfedbb23e94c
+learning_communication:learning_tf:lesson2_homework
 -DCATKIN_DEVEL_PREFIX=/home/julien/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/julien/catkin_ws/install -G Unix Makefiles
