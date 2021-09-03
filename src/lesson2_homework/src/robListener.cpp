@@ -35,7 +35,6 @@ int main(int argc, char** argv)
             ROS_INFO("base_laser:(%.2f, %.2f, %.2f) -----> base_link:(%.2f, %.2f %.2f) at time %.2f",
                     laser_point.point.x, laser_point.point.y, laser_point.point.z,
                     base_point.point.x, base_point.point.y, base_point.point.z, base_point.header.stamp.toSec());
-            ROS_INFO("baser_point.frame_id=%s", base_point.header.frame_id);
         }
         catch(tf::TransformException& ex)
         {
