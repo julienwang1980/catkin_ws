@@ -36,7 +36,7 @@ void execute(const lesson2_homework::TurtleMoveGoalConstPtr& goal, Server* as)
     float break_flag;
     while(1)
     {
-        ros::Rate r(10);
+        ros::Rate r(10.0);
         /* 计算并发布数据 */
         vel_msgs.angular.z = 4.0 * (atan2(turtle_target_pose.y-turtle_original_pose.y, 
                                         turtle_target_pose.x-turtle_original_pose.x)

@@ -13,7 +13,7 @@ int main(int argc, char** argv)
     ros::NodeHandle node;
     /* 创建tf的监听器 */
     tf::TransformListener listener;
-    ros::Rate rate(10.0);
+    ros::Rate rate(1.0);
 
     while (node.ok())
     {
