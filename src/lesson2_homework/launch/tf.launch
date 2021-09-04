@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="lesson2_homework" type="broadCaster" name="broadCaster"/>
+    <node pkg="lesson2_homework" type="robListener" name="robListener" output="screen"/>
+</launch>

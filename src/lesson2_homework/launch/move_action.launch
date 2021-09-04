@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
+    <node pkg="lesson2_homework" type="TurtleMove_client" name="TurtleMove_client"/>
+    <node pkg="lesson2_homework" type="TurtleMove_server" name="TurtleMove_server" output="screen"/>
+</launch>
