@@ -131,9 +131,18 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/julien/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/julien/catkin_ws/build/arbotix_ros/arbotix/cmake_install.cmake")
+  include("/home/julien/catkin_ws/build/arbotix_ros/arbotix_controllers/cmake_install.cmake")
+  include("/home/julien/catkin_ws/build/arbotix_ros/arbotix_firmware/cmake_install.cmake")
+  include("/home/julien/catkin_ws/build/arbotix_ros/arbotix_python/cmake_install.cmake")
+  include("/home/julien/catkin_ws/build/arbotix_ros/arbotix_sensors/cmake_install.cmake")
+  include("/home/julien/catkin_ws/build/arbotix_ros/arbotix_msgs/cmake_install.cmake")
+  include("/home/julien/catkin_ws/build/mbot_teleop/cmake_install.cmake")
   include("/home/julien/catkin_ws/build/learning_communication/cmake_install.cmake")
   include("/home/julien/catkin_ws/build/lesson2_homework/cmake_install.cmake")
   include("/home/julien/catkin_ws/build/learning_tf/cmake_install.cmake")
+  include("/home/julien/catkin_ws/build/mbot_gazebo/cmake_install.cmake")
+  include("/home/julien/catkin_ws/build/mbot_description/cmake_install.cmake")
 
 endif()
 
